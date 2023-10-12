@@ -1,2 +1,24 @@
+/* Your custom CSS styles */
 
-/* Your CSS Code here. */
+/* Optional: Add styles to the form or its elements */
+.container {
+    margin: 50px auto;
+    width: 50%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-check {
+    margin-top: 10px;
+}
+
+.form-text.text-danger {
+    display: none; /* Hide the feedback text by default */
+}
+
+.form-group.invalid .form-text.text-danger {
+    display: block; /* Display the feedback text when the form group is invalid */
+    color: red; /* Change the feedback text color */
+}

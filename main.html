@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="first-name-input">First Name</label>
+                <input type="text" class="form-control" id="first-name-input" placeholder="Enter your first name">
+                <small class="form-text text-danger">Invalid input</small>
+            </div>
+            <div class="form-group">
+                <label for="last-name-input">Last Name</label>
+                <input type="text" class="form-control" id="last-name-input" placeholder="Enter your last name">
+                <small class="form-text text-danger">Invalid input</small>
+            </div>
+            <div class="form-group">
+                <label for="email-input">Email</label>
+                <input type="email" class="form-control" id="email-input" placeholder="Enter your email">
+                <small class="form-text text-danger">Invalid input</small>
+            </div>
+            <div class="form-group">
+                <label for="college-input">College Name</label>
+                <input type="text" class="form-control" id="college-input" placeholder="Enter your college name">
+                <small class="form-text text-danger">Invalid input</small>
+            </div>
+            <div class="form-group">
+                <label for="roll-no-input">Roll No</label>
+                <input type="text" class="form-control" id="roll-no-input" placeholder="Enter your roll number">
+                <small class="form-text text-danger">Invalid input</small>
+            </div>
+            <div class="form-group">
+                <label for="graduation-year-select">Graduation Year</label>
+                <select class="form-control" id="graduation-year-select">
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                </select>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="conditions-checkbox">
+                <label class="form-check-label" for="conditions-checkbox">I agree to the terms and conditions</label>
+                <small class="form-text text-danger">You must agree to the terms and conditions</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
-
 </html>
